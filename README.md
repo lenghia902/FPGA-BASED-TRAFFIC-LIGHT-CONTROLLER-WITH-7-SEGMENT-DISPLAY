@@ -110,9 +110,9 @@ Full numbers are in `reports/resource_usage.rpt`.
 
 ## Demo and explanation videos
 
-- Code and simulation walkthrough: https://youtu.be/_8N1lpiAuDk
-- Hardware demo: https://youtu.be/p-LmVMJvJ5M
-
+- Code and simulation walkthrough: [https://youtu.be/_8N1lpiAuDk](https://youtu.be/_8N1lpiAuDk)
+- Hardware demo: [https://youtu.be/p-LmVMJvJ5M
+](https://youtu.be/p-LmVMJvJ5M)
 ## Limitations and ideas for improvement
 
 - Cycle times are fixed, so the controller cannot adapt to traffic.
