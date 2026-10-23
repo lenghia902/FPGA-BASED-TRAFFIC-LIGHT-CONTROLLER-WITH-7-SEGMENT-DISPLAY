@@ -1,0 +1,26 @@
+# Libero SoC generated files
+designer/
+component/work/
+synthesis/
+simulation/
+smartgen/
+*.ppd
+*.pdb
+*.map
+*.hdr
+*.wlf
+wlft*
+*.qdb
+*.qpg
+*.qtl
+_info
+_vmake
+vsim.wlf
+modelsim.ini*
+
+# Editor / OS junk
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

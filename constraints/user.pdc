@@ -1,0 +1,171 @@
+# Microchip I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: 2025.1 2025.1.0.14
+
+# Family: PolarFireSoC , Die: MPFS095T , Package: FCSG325
+
+# Date generated: Sat Dec  6 08:40:32 2025 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io -port_name clk  \
+    -pin_name R18      \
+    -fixed true        \
+    -DIRECTION INPUT
+
+
+set_io -port_name ew_green  \
+    -pin_name E12           \
+    -fixed true             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name ew_red  \
+    -pin_name E18         \
+    -fixed true           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name ew_yellow  \
+    -pin_name F18            \
+    -fixed true              \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {led_7_seg[0]}  \
+    -pin_name D17                 \
+    -fixed true                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {led_7_seg[1]}  \
+    -pin_name D18                 \
+    -fixed true                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {led_7_seg[2]}  \
+    -pin_name A15                 \
+    -fixed true                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {led_7_seg[3]}  \
+    -pin_name B19                 \
+    -fixed true                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {led_7_seg[4]}  \
+    -pin_name B17                 \
+    -fixed true                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {led_7_seg[5]}  \
+    -pin_name B14                 \
+    -fixed true                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {led_7_seg[6]}  \
+    -pin_name E13                 \
+    -fixed true                   \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name ns_green  \
+    -pin_name E10           \
+    -fixed true             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name ns_red  \
+    -pin_name A20         \
+    -fixed true           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name ns_yellow  \
+    -pin_name B21            \
+    -fixed true              \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name rst_n  \
+    -pin_name T19        \
+    -fixed true          \
+    -DIRECTION INPUT
+
+
+set_io -port_name sn_green  \
+    -pin_name A19           \
+    -fixed true             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name sn_red  \
+    -pin_name E21         \
+    -fixed true           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name sn_yellow  \
+    -pin_name F19            \
+    -fixed true              \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name we_green  \
+    -pin_name F20           \
+    -fixed true             \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name we_red  \
+    -pin_name G18         \
+    -fixed true           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name we_yellow  \
+    -pin_name F21            \
+    -fixed true              \
+    -DIRECTION OUTPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+
+#
+#Ports using Dedicated Pins
+
+#
+
